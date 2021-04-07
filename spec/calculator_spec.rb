@@ -10,7 +10,7 @@ describe Calculator do
     describe "#subtract" do
     it "returns the subtraction of more than two numbers" do
       calculator = Calculator.new
-      expect(calculator.subtract(5, 2,7)).to eql(-4)
+      expect(calculator.subtract(5, 2)).to eql(3)
     end
   end
     describe "#multiply" do
